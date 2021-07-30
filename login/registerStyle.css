@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Exo:500,600,700|Roboto&display=swap");
+
+body{
+    font-family: "Exo", "sans-serif";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    margin:7rem 5px 5px 5px;
+    border: 2px solid #E12454;
+}
+
+.row #image{
+    background: linear-gradient(0, #223a66, #e12454);
+    padding-top: 18rem;
+}
+
+ form h2{
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    color: #223A66;
+    border-bottom: 5px solid #E12454;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+/* form {
+    color: #223A66;
+    margin:1.5rem 0 1.5rem 0;
+} */
+
+form #userReg, #passReg, #emailReg, #confirmPassReg{
+    color: #223A66;
+    margin-bottom: 1rem;
+}
+
+form #home, #signInReg{
+    color: #223A66;
+    margin-bottom: 4px;
+
+}
+
+ .form-row{
+     padding: 2rem;
+     line-height: 2;
+ }
+
+ form #login_btnReg{
+    margin-bottom: 10px;
+    background-color: #E12454;
+    color: #fff;
+}
+
+a{
+    color: #223A66;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #E12454;
+}
+
+
+ @media(max-width:576px) {
+
+    .row{
+        margin:16px;
+    }
+     
+    .row #image{
+        background: linear-gradient(0, #223a66, #e12454);
+        padding: 1rem;
+    }
+ }
+
+ @media(max-width:992px) {
+
+    .row{
+        margin:16px;
+    }
+     
+    .row #image{
+        background: linear-gradient(0, #223a66, #e12454);
+        padding: 1rem;
+    }
+ }
