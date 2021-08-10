@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Exo:500,600,700|Roboto&display=swap");
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
 
 body{
     font-family: "Exo", "sans-serif";
@@ -7,11 +12,13 @@ body{
     padding: 0;
 }
 
+.form{
+    box-shadow: 5px 5px 20px solid black;
+}
+
 .row{
-    margin: 5px;
-    margin-top: 12.5%;
+    margin:12.5% 5px 5px 5px;
     border: 2px solid #E12454;
-    
 }
 
 .row #image{
@@ -39,7 +46,6 @@ form #pass{
 form #fgPass, #reg, #signIn{
     color: #223A66;
     margin-bottom: 4px;
-
 }
 
  .form-row{
@@ -65,14 +71,30 @@ a:hover{
 
  @media(max-width:576px) {
      
+    .row{
+        margin: 1rem;
+    }
+
     .row #image{
         background: linear-gradient(0, #223a66, #e12454);
         padding: 1rem;
         margin-bottom: 1rem;
     }
+
+    form h2{
+        font-size: 25px;
+    }
+
+    form #fgPass a, #reg a, #reg{
+        font-size: 15px;
+    }
  }
 
  @media(max-width:992px) {
+
+    .row{
+        margin: 1rem;
+    }
      
     .row #image{
         background: linear-gradient(0, #223a66, #e12454);

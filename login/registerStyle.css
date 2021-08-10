@@ -8,7 +8,7 @@ body{
 }
 
 .row{
-    margin:7rem 5px 5px 5px;
+    margin: 5rem 0;
     border: 2px solid #E12454;
 }
 
@@ -25,11 +25,6 @@ body{
     border-bottom: 5px solid #E12454;
     margin: 1.5rem 0 1.5rem 0;
 }
-
-/* form {
-    color: #223A66;
-    margin:1.5rem 0 1.5rem 0;
-} */
 
 form #userReg, #passReg, #emailReg, #confirmPassReg{
     color: #223A66;
@@ -72,6 +67,14 @@ a:hover{
     .row #image{
         background: linear-gradient(0, #223a66, #e12454);
         padding: 1rem;
+    }
+
+    form h2{
+        font-size: 25px;
+    }
+
+    form #signInReg a, #signInReg p, #home a{
+        font-size: 15px;
     }
  }
 
